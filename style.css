@@ -4,14 +4,10 @@
     box-sizing: border-box; 
     font-family: sans-serif; 
 }
- 
-
 
 .backcolor {
-    background-image: url(./img/jumbo.png);
-    
+    background-image: url(./img/jumbo.png);    
     background-size: cover;
-    
     display: flex;
     justify-content: center;
     flex-direction: column;    
@@ -32,21 +28,18 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: calc((100% / 8) );    
-    
+    width: calc((100% / 8) );      
 }
 
 .header-box-2{
     text-align: center;
     line-height: 40px;
-    width: calc(100% / 3);    
-    
+    width: calc(100% / 3);   
     font-size: 28px;
 }
 
 .header-box-3{    
-    width: calc((100% / 8) );    
-    
+    width: calc((100% / 8) );   
 }
 
 .blueback{    
@@ -62,10 +55,9 @@
     font-size: 35px;
     height: 25rem;
     width: 60rem;
-    text-align: center;
-   
-    
+    text-align: center;  
 }
+
 .pink-box > button{
     border: none;    
     border-radius: 20px;
@@ -73,23 +65,26 @@
     padding: 9px;
     margin: 0.5px 5px;
 }
+
 h1, p {
     padding: 22px;
 }
+
 .open-b{
     background-color: #333;
     color: whitesmoke;
-
 }
+
 .login{
     border: none;
     background-color: whitesmoke;
     border-radius: 18px;
     font-size: 23px;
-    padding: 7px;   
-       
+    padding: 7px;      
 }
+
  /* MAIN CONTENT */
+
 .back-white{
     background-color: whitesmoke;
     min-height: 45rem;
@@ -110,7 +105,8 @@ h1, p {
 .blue-column{
     width: calc(100% / 2.5);
     height: 28rem;
-    background-size: cover;    
+    background-size: cover; 
+    background-position: center;   
 }
 
 .item-one{
@@ -135,7 +131,7 @@ h1, p {
 }
 
 .pink-column > p {
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .back-green{  
@@ -198,10 +194,9 @@ h1, p {
     color: white;
     min-height: 30rem;
     width: calc(100% / 4);
-    align-self: center;
-    
-    
+    align-self: center;      
 }
+
  .text-color{
     color:hsl(236, 88%, 67%);
  }
@@ -209,9 +204,7 @@ h1, p {
  h4{
     font-size: 18px;
     margin-top: 1rem;
- }
-
-
+}
 
 div > img, i{
     width: 25px;
@@ -224,12 +217,10 @@ div > img, i{
     padding-left: 0.5rem;
 }
 
-.azul-column{
-    
+.azul-column{    
     min-height: 30rem;
     width: calc(100% / 7);
-    align-self: center;
-    
+    align-self: center;    
 }
  
 
@@ -242,8 +233,7 @@ div > img, i{
     flex-wrap: wrap;
 }
 
-.container-logo{
-    
+.container-logo{    
     height: 4rem;
     display: flex;
     justify-content: space-between;
@@ -254,8 +244,7 @@ div > img, i{
 }
 .logo{
     width: 200px;
-    height: 60px;
-         
+    height: 60px;         
 }
 
 .button{
@@ -267,6 +256,14 @@ div > img, i{
     background-color: hsl(236, 88%, 67%);
     color: white;
     font-size: 20px;
+}
+
+ /* BONUS */
+
+.wave{
+    width: 100%;
+    height: 51px;    
+    opacity: 0.08 ;
 }
 
 
