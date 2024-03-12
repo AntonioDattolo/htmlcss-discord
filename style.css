@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 0 ;
     box-sizing: border-box; 
     font-family: sans-serif; 
 }
@@ -253,12 +253,20 @@ div > img, i{
     margin: 2rem 0;
 }
 .logo{
-    width: 50rem;
-     
+    width: 200px;
+    height: 60px;
+         
 }
 
 .button{
-    background-color: salmon; 
+    border: none;    
+    border-radius: 20px;
+    font-size: 26px;
+    padding: 9px;
+    margin: 0.5px 5px;
+    background-color: hsl(236, 88%, 67%);
+    color: white;
+    font-size: 20px;
 }
 
 
